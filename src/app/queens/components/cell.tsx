@@ -34,7 +34,7 @@ export default function Cell({
   return (
     <div
       className={`relative ${size || "w-[11.11%]"} aspect-square ${getBorder(
-        border
+        border,
       )} border-slate-900 flex justify-center items-center ${
         colorsDic[cell.color]
       } ${cell.isWrong ? "text-red-500" : "text-slate-900"}`}
